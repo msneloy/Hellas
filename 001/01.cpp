@@ -28,8 +28,8 @@ int main()
     if (num3 < smallest) //
         smallest = num3; //
 
-    cout << "Sum is " << num1 + num2 + num3             //sum of 3 numbers
-         << "\nAverage is " << (num1 + num2 + num3) / 3 //average of 3 numbers
+    cout << "Sum is " << num1 + num2 + num3             //
+         << "\nAverage is " << (num1 + num2 + num3) / 3 //
          << "\nProduct is " << num1 * num2 * num3       //
          << "\nSmallest is " << smallest                //
          << "\nLargest is " << largest << endl;         //
