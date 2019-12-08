@@ -4,7 +4,7 @@ using namespace std; //standard namespace. cout, cin and a lot of other things a
 int main()
 {
     int num1, num2, num3;
-    int smallest, largest;  // declaration
+    int smallest, largest; // declaration
 
     cout << "Input three different integers: "; // prompt
     cin >> num1 >> num2 >> num3;                // input
@@ -15,14 +15,14 @@ int main()
         largest = num2; // if yes then the largest is num2
 
     if (num3 > largest) // is num3 larger?
-        largest = num3; // if yes then the largest is num2
+        largest = num3; // if yes then the largest is num3
 
     smallest = num1; // programme assumes first number to be smallest
 
-    if (num2 < smallest) //is num2 smaller
+    if (num2 < smallest) //if num2 smaller
         smallest = num2; //if yes then the smallest is num2
 
-    if (num3 < smallest) //is num3 smaller
+    if (num3 < smallest) //if num3 smaller
         smallest = num3; //if yes then the smallest is num3
 
     cout << "Sum is " << num1 + num2 + num3             // addition output
