@@ -3,7 +3,7 @@ using namespace std; //standard namespace. cout, cin and a lot of other things a
 
 int main()
 {
-    int num1, num2, num3;     //
+    int num1, num2, num3;
     int smallest, largest;  // declaration
 
     cout << "Input three different integers: "; // prompt
